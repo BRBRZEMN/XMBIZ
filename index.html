@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "小猫翻訳室",
+      "url": "https://xiaomaobiz.com"
+    }
+    </script>
+    
+    <title>小猫翻訳室 | Coming Soon</title>
+    
+    <style>
+        :root {
+            --primary-color: #333333;
+            --text-sub: #888888;
+            --bg-color: #ffffff;
+            --border-color: #eeeeee;
+        }
+
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--bg-color);
+            color: var(--primary-color);
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .coming-soon-container {
+            text-align: center;
+            padding: 2rem;
+            max-width: 600px;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: 0.2em;
+            margin-bottom: 3rem;
+            position: relative;
+            display: inline-block;
+        }
+
+        .logo::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 20px;
+            height: 1px;
+            background-color: var(--primary-color);
+        }
+
+        h1 {
+            font-size: 1.25rem;
+            font-weight: 400;
+            letter-spacing: 0.1em;
+            margin-bottom: 1rem;
+        }
+
+        .description {
+            font-size: 0.9rem;
+            color: var(--text-sub);
+            line-height: 1.8;
+            margin-bottom: 3rem;
+        }
+
+        .launch-date {
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.3em;
+            border: 1px solid var(--border-color);
+            padding: 10px 20px;
+            display: inline-block;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 40px;
+            width: 100%;
+            text-align: center;
+            font-size: 0.75rem;
+            color: var(--text-sub);
+        }
+
+        footer a {
+            color: var(--primary-color);
+            text-decoration: none;
+            margin-left: 10px;
+        }
+
+        /* animation */
+        .fade-in {
+            animation: fadeIn 1.5s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="coming-soon-container fade-in">
+        <div class="logo">小猫翻訳室</div>
+        
+        <h1>COMING SOON</h1>
+        
+        <p class="description">
+            日本語とマンダリン。双方のネイティブスピーカーによる<br>
+            ビジネス特化型の通訳・翻訳サービスを開始いたします。<br>
+            言葉の奥にある文化と文脈を繋ぎ、確かなビジネスの成功を支援します。
+        </p>
+
+        <div class="launch-date">2026.09 LAUNCH</div>
+    </div>
+
+    <footer class="fade-in">
+        &copy; 2026 xiaomaobiz.com 
+    </footer>
+
+</body>
+</html>
