@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Page Not Found | 小猫翻訳室</title>
+    <style>
+        :root {
+            --primary-color: #333333;
+            --text-sub: #888888;
+            --bg-color: #ffffff;
+        }
+
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--bg-color);
+            color: var(--primary-color);
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .error-container {
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .error-code {
+            font-size: 5rem;
+            font-weight: 200;
+            margin: 0;
+            letter-spacing: 0.1em;
+            color: #f0f0f0;
+        }
+
+        h1 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-top: -1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .message {
+            font-size: 0.9rem;
+            color: var(--text-sub);
+            line-height: 1.8;
+            margin-bottom: 3rem;
+        }
+
+        .back-link {
+            font-size: 0.8rem;
+            color: var(--primary-color);
+            text-decoration: none;
+            border: 1px solid var(--primary-color);
+            padding: 12px 30px;
+            transition: all 0.3s ease;
+        }
+
+        .back-link:hover {
+            background-color: var(--primary-color);
+            color: #fff;
+        }
+
+        .cat-icon {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="error-container">
+        <span class="cat-icon">🐾</span>
+        <p class="error-code">404</p>
+        <h1>ページが見つかりませんでした</h1>
+        
+        <p class="message">
+            お探しのページは、どこかへ散歩に出てしまったようです。<br>
+            URLが正しいかご確認いただくか、トップページにお戻りください。
+        </p>
+
+        <a href="/" class="back-link">トップページへ戻る</a>
+    </div>
+
+</body>
+</html>
